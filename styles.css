@@ -1,0 +1,77 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light outdoor sky color */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #2e7d32; /* Forest green */
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Navigation bar */
+nav {
+    background: #1b5e20; /* Darker green */
+    text-align: center;
+    padding: 0.8em;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc80; /* Warm orange when hovered */
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Profile section */
+.profile {
+    background: #fff;
+    padding: 1.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Image styling */
+.profile img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    border: 3px solid #2e7d32; /* Border matching outdoor theme */
+}
+
+/* Sections */
+section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
